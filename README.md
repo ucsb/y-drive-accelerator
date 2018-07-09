@@ -1,5 +1,5 @@
 # Y Drive Accelerator
-This is an unpublished, developer Gmail add-on for quickly saving emails to a domain network through via a Google team drive
+This is an unpublished, developer Gmail add-on for quickly saving emails to a domain network via a Google team drive
 
 ## Background
 In the Office of Research, the Sponsored Projects team has to save copies of almost all of their email correspondence. They communicate with funding agencies, other universities, other departments at UCSB, etc. so they can receive hundreds of emails every day. All of these emails need to be saved to a specific location on our network, a shared drive called the Y Drive. This drive is organized by fiscal year, department, and some other categories. The process of manually converting an email to a pdf, finding the right location to save it to, and renaming it is a lengthy process. When you get as many emails as they do, this can end up taking a significant amount of time every day.
