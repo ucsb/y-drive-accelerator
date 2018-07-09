@@ -1,4 +1,4 @@
-# y-drive-accelerator
+# Y Drive Accelerator
 This is an unpublished, developer Gmail add-on for quickly saving emails to a team drive
 
 ## Background
@@ -32,8 +32,14 @@ We decided to create a Gmail add-on, the Y Drive Accelerator, to fix this proble
 ## Notes
 * If you receive an error saying "Rootfolder not found", make sure you created a folder in the team drive and open the folder. This is a one time step
 * The add-on works on mobile devices. If you install it on your computer and you have a new version of Gmail installed on your mobile device, it should show up there without any extra steps
+* I included an outline for how the Windows Service works. I won't describe this here, but please let me know if you'd like more information
 
 ## Limitations
 * The biggest limitation of the add-on is due to a Google quota. Custom functions are only allowed to run for 30 seconds. If they run longer than that, the add-on will stop working. Emails with many attachments will hit this limit. Each save to the team drive takes anywhere from 1-3 seconds, which adds up quickly. We don't have a solution in place for this yet as it doesn't occur very often for us. I have a couple ideas for this problem that wouldn't be perfect so I'm open to suggestions!
 * The Card UI that the add-on uses is still very new, so there are some things that you would expect to be available that aren't. Nothing too important is missing though
 * Because it is a developer add-on, users have to have read access to the actual script. You have to share the Apps Script project with every new user, and also assign them Edit access in the team drive
+
+## Author
+Cameron McNair - Applications Developer - cfb@ucsb.edu
+
+Please reach out to me if you have any questions or comments. I liked this project and I'm happy to talk about it!
