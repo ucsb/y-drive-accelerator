@@ -1,0 +1,18 @@
+{
+  "timeZone": "America/Los_Angeles",
+  "dependencies": {
+  },
+  "oauthScopes": ["https://www.googleapis.com/auth/gmail.addons.execute", "https://www.googleapis.com/auth/gmail.readonly", "https://www.googleapis.com/auth/drive"],
+  "gmail": {
+    "name": "Y Drive Accelerator",
+    "logoUrl": "http://www.research.ucsb.edu/downloads/saveIcon.png",
+    "contextualTriggers": [{
+      "unconditional": {
+      },
+      "onTriggerFunction": "buildAddOn"
+    }],
+    "primaryColor": "#0BA89A",
+    "secondaryColor": "#0BA89A",
+    "openLinkUrlPrefixes": ["https://mail.google.com/", "https://drive.google.com/"]
+  }
+}
